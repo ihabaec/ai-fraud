@@ -1,0 +1,68 @@
+# ========================
+# Python & Django
+# ========================
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+venv_py312/
+
+# Django database
+*.sqlite3
+*.db
+
+# Django local settings
+*.log
+.env
+
+# PyInstaller
+*.spec
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Redis dump
+*.rdb
+
+# ========================
+# VS Code / IDEs
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ========================
+# Node.js / React Frontend
+# ========================
+FraudDetApp-frontend/node_modules/
+FraudDetApp-frontend/build/
+FraudDetApp-frontend/.env
+
+# npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================
+# ML & Data Artifacts
+# ========================
+# Raw datasets
+FraudDetApp/myapi/ml_models/models/*.csv
+FraudDetApp/ml_models/*.csv
+
+# Model binaries
+*.pkl
+*.joblib
+*.h5
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
